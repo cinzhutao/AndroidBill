@@ -103,7 +103,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
             }
 
             //  向服务器注册账号
-            String url = "http://100.95.229.116:12345/api/register";/*在此处改变你的服务器地址*/
+            String url = "http://100.95.237.253:12345/api/register";/*在此处改变你的服务器地址*/
             okHttpUtil.registerNameWordToServer(SignUpActivity.this, url, signUpEmail, password_second);
 
             // 以下把修改好的新密码返回给上一个页面

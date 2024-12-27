@@ -52,6 +52,7 @@
                 android:id="@+id/pts_bill"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
+
         </androidx.viewpager.widget.ViewPager>
     </LinearLayout>
 

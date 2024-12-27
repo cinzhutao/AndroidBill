@@ -141,6 +141,6 @@ public class BillPagerActivity extends AppCompatActivity implements View.OnClick
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        mDBHelper.closeLink();
+        //mDBHelper.closeLink();
     }
 }
